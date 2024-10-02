@@ -1,13 +1,41 @@
 import Image from "next/image";
+import 'bulma/css/bulma.min.css'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-     <h1> hej </h1>
+
+    <div class="container">
+  <div class="notification is-primary">
+  <div class="columns">
 
 
-</main>
-    </div>
+
+  <div class="column">
+  <p class="titleName">Felix Ahlcrona </p>
+
+  </div>
+
+  <div class="column">
+
+  {/* <section class="hero is-warning">
+  <div class="hero-body">
+    <p class="title">Warning hero</p>
+    <p class="subtitle">Warning subtitle</p>
+  </div>
+</section> */}
+
+  </div>
+
+
+
+
+
+
+</div>
+
+  </div>
+</div>
+
+
   );
 }
