@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+
 :root {
-  --background: #576fd0;
-  --foreground: #c79a9a;
+  --softOrange-color: #FFB15E;
+  --skyBlue-color: #72A4D2;
+  --lightGray-color: #F5F5F5;
 }
 
 * {
@@ -14,6 +18,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
+background-image:
+linear-gradient(to bottom, #f5f5f578, #4f90ff73 ),
+url('https://i.pinimg.com/originals/22/d1/2c/22d12c960542a71c1aade0db029726d4.jpg');
+width: 100%;
+background-size: cover;
+padding: 20px;
 }
 
 .container{
@@ -24,7 +34,7 @@ body {
 }
 .titleName{
   font-family: 'Inter', sans-serif;
-  color: #d9d6be;
+  color: var(--softOrange-color);
   letter-spacing: -0.1rem;
   width: 100%;
   font-size: 5.5em;
@@ -32,5 +42,28 @@ body {
   font-weight: 800;
   text-shadow: 0rem 0.335rem 0rem rgba(0, 0, 0, 0.128);
 }
-
-
+#xsd{
+  background-color: var(--skyBlue-color);
+}
+#button{
+  width: 80%;
+  background-color: var(--softOrange-color);
+    color: var(--lightGray-color);
+    /* background-image: linear-gradient(22deg, rgba(160, 109, 109, 0.412) 0%, var(--softOrange-color) 100%); */
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    vertical-align: middle;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188);
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+#icon{
+ padding-left: 170px;
+}
+.buttonBlock{
+  gap: 1.5rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+}
