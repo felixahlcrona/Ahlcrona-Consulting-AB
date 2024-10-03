@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import 'bulma/css/bulma.min.css'
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
 
 
   <div class="column">
-  <figure class="image is-128x128">
-  <img class="is-rounded" src="https://media.licdn.com/dms/image/v2/C4E03AQEBTMXYdA30Tg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1641406688480?e=1733356800&v=beta&t=6f9PS8axnveo99C7X8wmFHZG7nSSPMnv2iDCbRajqxU" />
-</figure>
+    
+  <Image src={`/felix.jpg`} class="profileImage"  width="150" height="150" />
+  
   <p class="titleName">Felix Ahlcrona </p>
   <p>Hello! I'm Felix, a senior freelancing software engineer. </p>
   </div>

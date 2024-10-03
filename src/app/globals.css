@@ -20,7 +20,7 @@ body {
   background: var(--background);
 background-image:
 linear-gradient(to bottom, #f5f5f578, #4f90ff73 ),
-url('https://i.pinimg.com/originals/22/d1/2c/22d12c960542a71c1aade0db029726d4.jpg');
+url('/background.jpg');
 width: 100%;
 background-size: cover;
 padding: 20px;
@@ -61,9 +61,15 @@ padding: 20px;
 #icon{
  padding-left: 170px;
 }
+
 .buttonBlock{
   gap: 1.5rem;
     flex-direction: column;
     flex-wrap: nowrap;
     display: flex;
+}
+
+.profileImage{
+  border-radius: 30%;
+
 }
