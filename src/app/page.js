@@ -4,6 +4,8 @@ import 'bulma/css/bulma.min.css'
 
 export default function Home() {
   return (
+<div class="main">
+  
 
     <div class="container">
   <div class="notification" id="xsd">
@@ -30,7 +32,7 @@ export default function Home() {
 <div class="animate__animated animate__fadeIn">
 <div class="buttonBlock">
 <button class="button is-large" id="button">
-  <span>Linkedin</span>
+  <span className="buttonText">Linkedin</span>
     <span class="icon is-medium" id="icon">
       <i class="fab fa-linkedin"></i>
     </span>
@@ -38,21 +40,21 @@ export default function Home() {
 
 
   <button class="button is-large" id="button">
-  <span>Resumé</span>
+  <span className="buttonText">Resumé</span>
     <span class="icon is-medium" id="icon">
       <i class="fa-regular fa-file-pdf"></i>
     </span>
   </button>
 
   <button class="button is-large" id="button">
-  <span>GitHub</span>
+  <span className="buttonText">GitHub</span>
     <span class="icon is-medium" id="icon">
       <i class="fab fa-github"></i>
     </span>
   </button>
 
   <button class="button is-large" id="button">
-  <span>Email</span>
+  <span className="buttonText">Email</span>
     <span class="icon is-medium" id="icon">
       <i class="fa-regular fa-envelope"></i>
     </span>
@@ -72,7 +74,7 @@ export default function Home() {
 
   </div>
 </div>
-
+</div>
 
   );
 }
