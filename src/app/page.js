@@ -1,4 +1,5 @@
 import Image from "next/image";
+import 'animate.css';
 import 'bulma/css/bulma.min.css'
 
 export default function Home() {
@@ -11,23 +12,30 @@ export default function Home() {
 
 
   <div class="column">
-    
-  <Image src={`/Ahlcrona-Consulting-AB/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
   
+  <div class="animate__animated animate__flipInX">
+  <Image src={`/Ahlcrona-Consulting-AB/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
+</div>
+
+  <div class="animate__animated animate__backInDown">
   <p class="titleName">Felix Ahlcrona </p>
   <p>Hello! I'm Felix, a senior freelancing software engineer. </p>
+</div>
+
   </div>
 
   <div class="column">
 
 
-<div className="buttonBlock">
+<div class="animate__animated animate__fadeIn">
+<div class="buttonBlock">
 <button class="button is-large" id="button">
   <span>Linkedin</span>
     <span class="icon is-medium" id="icon">
       <i class="fab fa-linkedin"></i>
     </span>
   </button>
+
 
   <button class="button is-large" id="button">
   <span>Resumé</span>
@@ -52,8 +60,9 @@ export default function Home() {
 </div>
 
 
-  </div>
 
+  </div>
+  </div>
 
 
 
