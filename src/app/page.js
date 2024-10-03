@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import 'bulma/css/bulma.min.css'
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
 
   <div class="column">
     
-  <Image src={`felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
+  <Image src={`/Ahlcrona-Consulting-AB/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
   
   <p class="titleName">Felix Ahlcrona </p>
   <p>Hello! I'm Felix, a senior freelancing software engineer. </p>

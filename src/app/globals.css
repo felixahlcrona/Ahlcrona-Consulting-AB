@@ -20,7 +20,7 @@ body {
   background: var(--background);
 background-image:
 linear-gradient(to bottom, #f5f5f578, #4f90ff73 ),
-url('/background.jpg');
+url('/Ahlcrona-Consulting-AB/background.jpg');
 width: 100%;
 background-size: cover;
 padding: 20px;
