@@ -3,6 +3,7 @@
 
 
 :root {
+  overscroll-behavior-y: contain;
   --softOrange-color: #FFB15E;
   --skyBlue-color: #72A4D2;
   --lightGray-color: #F5F5F5;
@@ -29,7 +30,9 @@ background-attachment: fixed;
   font-style: normal;
 
 }
-
+.body{
+  overscroll-behavior-y: contain;
+}
 
 
 .container{
