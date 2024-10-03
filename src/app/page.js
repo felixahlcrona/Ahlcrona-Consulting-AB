@@ -13,7 +13,7 @@ export default function Home() {
 
   <div class="column">
     
-  <Image src={`/felix.jpg`} class="profileImage"  width="150" height="150" />
+  <Image src={`/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
   
   <p class="titleName">Felix Ahlcrona </p>
   <p>Hello! I'm Felix, a senior freelancing software engineer. </p>
