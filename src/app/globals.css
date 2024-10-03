@@ -30,15 +30,9 @@ background-attachment: fixed;
   font-style: normal;
 
 }
-
-html, body {
-  overscroll-behavior: none; /* Disable overscroll on both axes */
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
+.body{
+  overscroll-behavior-y: none;
 }
-
 
 .container{
   display: flex;
