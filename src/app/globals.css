@@ -1,106 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
 
 :root {
   overscroll-behavior-y: contain;
-  --softOrange-color: #FFB15E;
-  --skyBlue-color: #72A4D2;
-  --lightGray-color: #F5F5F5;
-  
+  --softOrange-color: #ffb15e;
+  --skyBlue-color: #72a4d2;
+  --lightGray-color: #f5f5f5;
+
   color: var(--foreground);
   background: var(--background);
-background-image:
-linear-gradient(to bottom, #f5f5f578, #4f90ff73 ),
-url('/Ahlcrona-Consulting-AB/background.jpg');
-width: 100%;
-height: 100%;
-background-size: cover;
-padding: 2%;
-background-attachment: fixed; 
+  background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding: 2%;
+  background-attachment: fixed;
 }
 
-.main{
-  padding-top:10%
+.main {
+  padding-top: 10%;
 }
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-
 }
-.body{
+.body {
   overscroll-behavior-y: none;
 }
-html { 
-  background-image:
-linear-gradient(to bottom, #f5f5f578, #4f90ff73 ),
-url('/Ahlcrona-Consulting-AB/background.jpg');
+html {
+  background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
 }
-.container{
+a {
+  text-decoration: none !important;
+}
+
+.container {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 100vh;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   width: 100vh;
-  
 }
-.titleName{
-  font-family: 'Inter', sans-serif;
+.titleName {
+  font-family: "Inter", sans-serif;
   color: var(--softOrange-color);
   letter-spacing: -0.1rem;
   width: 100%;
-  /* font-size: 5vw; */
-  font-size: clamp(3rem, 6vw, 6em); /* Dynamically adjusts */
+  font-size: clamp(3rem, 6vw, 6em);
   line-height: 1;
   font-weight: 800;
   text-shadow: 0rem 0.335rem 0rem rgba(0, 0, 0, 0.128);
 }
-#xsd{
+#transparent {
   background-color: transparent;
   width: 100%;
   height: 100%;
 }
-#button{
-  margin:auto;
+#button {
+  margin: auto;
   display: flex;
-    align-items: center;
-    justify-content: space-between;
-        width: 75%;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
   background-color: var(--softOrange-color);
-    color: var(--lightGray-color);
-    /* background-image: linear-gradient(22deg, rgba(160, 109, 109, 0.412) 0%, var(--softOrange-color) 100%); */
-    background-repeat: repeat;
-    background-position: 0% 0%;
-    background-size: cover;
-    vertical-align: middle;
-    border-radius: 2rem;
-    box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188);
-    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+  color: var(--lightGray-color);
+  background-repeat: repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  vertical-align: middle;
+  border-radius: 2rem;
+  box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188);
+  transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
 #button:hover {
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
+  animation: pulse;
+  animation-duration: 1s;
   background-color: #f69a37;
 }
 
-
-.buttonBlock{
+.buttonBlock {
   gap: 1.5rem;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
 }
 
-.profileImage{
+.profileImage {
   border-radius: 30%;
 }
-.buttonText{
+.buttonText {
   font-size: 2rem;
-  
 }
-.icon.is-medium{
+.icon.is-medium {
   font-size: 2rem;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+[class^="animate"] {
+  animation: bounce 2s;
+}
+
+.animate1s {
+  animation-delay: 900ms;
+}
+.animate2s {
+  animation-delay: 700ms;
+}
+.animate3s {
+  animation-delay: 500ms;
+}
+.animate4s {
+  animation-delay: 300ms;
 }

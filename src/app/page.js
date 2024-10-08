@@ -1,80 +1,72 @@
 import Image from "next/image";
-import 'animate.css';
-import 'bulma/css/bulma.min.css'
+import "animate.css";
+import "bulma/css/bulma.min.css";
 
 export default function Home() {
   return (
-<div class="main">
-  
+    <div class="main">
+      <div class="container">
+        <div class="notification" id="transparent">
+          <div class="columns">
+            <div class="column">
+              <Image src={`/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
 
-    <div class="container">
-  <div class="notification" id="xsd">
-  <div class="columns">
+              <div class="animate__animated animate__fadeIn">
+                <p class="titleName">Felix Ahlcrona </p>
+                <p>Hello! I'm Felix, a senior freelance software engineer with experience in software architecture and technical leadership roles</p>
+              </div>
+            </div>
 
+            <div class="column">
+              <div class="buttonBlock">
+                <div class="animate1s">
+                  <a href="https://www.linkedin.com/in/felixahlcrona/" target="_blank">
+                    <button class="button is-large" id="button">
+                      <span className="buttonText">Linkedin</span>
+                      <span class="icon is-medium" id="icon">
+                        <i class="fab fa-linkedin"></i>
+                      </span>
+                    </button>
+                  </a>
+                </div>
 
+                <div class="animate2s">
+                  <a href="https://www.linkedin.com/in/felixahlcrona/" target="_blank">
+                    <button class="button is-large" id="button">
+                      <span className="buttonText">Resumé</span>
+                      <span class="icon is-medium" id="icon">
+                        <i class="fa-regular fa-file-pdf"></i>
+                      </span>
+                    </button>
+                  </a>
+                </div>
 
-  <div class="column">
-  
-  <div class="animate__animated animate__flipInX">
-  <Image src={`/Ahlcrona-Consulting-AB/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
-</div>
+                <div class="animate3s">
+                  <a href="https://github.com/felixahlcrona" target="_blank">
+                    <button class="button is-large" id="button">
+                      <span className="buttonText">GitHub</span>
+                      <span class="icon is-medium" id="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                    </button>
+                  </a>
+                </div>
 
-  <div class="animate__animated animate__backInDown">
-  <p class="titleName">Felix Ahlcrona </p>
-  <p>Hello! I'm Felix, a senior freelancing software engineer. </p>
-</div>
-
-  </div>
-
-  <div class="column">
-
-
-<div class="animate__animated animate__fadeIn">
-<div class="buttonBlock">
-<button class="button is-large" id="button">
-  <span className="buttonText">Linkedin</span>
-    <span class="icon is-medium" id="icon">
-      <i class="fab fa-linkedin"></i>
-    </span>
-  </button>
-
-
-  <button class="button is-large" id="button">
-  <span className="buttonText">Resumé</span>
-    <span class="icon is-medium" id="icon">
-      <i class="fa-regular fa-file-pdf"></i>
-    </span>
-  </button>
-
-  <button class="button is-large" id="button">
-  <span className="buttonText">GitHub</span>
-    <span class="icon is-medium" id="icon">
-      <i class="fab fa-github"></i>
-    </span>
-  </button>
-
-  <button class="button is-large" id="button">
-  <span className="buttonText">Email</span>
-    <span class="icon is-medium" id="icon">
-      <i class="fa-regular fa-envelope"></i>
-    </span>
-  </button>
-</div>
-
-
-
-  </div>
-  </div>
-
-
-
-
-
-</div>
-
-  </div>
-</div>
-</div>
-
+                <div class="animate4s">
+                  <a href="mailto:felix.ahlcrona@hotmail.com" target="_blank">
+                    <button class="button is-large" id="button">
+                      <span className="buttonText">Email</span>
+                      <span class="icon is-medium" id="icon">
+                        <i class="fa-regular fa-envelope"></i>
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
