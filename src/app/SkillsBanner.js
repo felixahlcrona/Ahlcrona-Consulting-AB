@@ -3,6 +3,14 @@ import "./Skills.css";
 
 const SkillsBanner = () => {
   const skills = [
+    ".NET",
+    "Azure",
+    "SQL",
+    "React",
+    "Backend",
+    "Frontend",
+    "Teamlead",
+    "Scrum master",
     "Azure Application Insights",
     "Azure App Service",
     "Azure ARM templates",
@@ -35,7 +43,6 @@ const SkillsBanner = () => {
     "SSRS reports",
     "TypeScript",
     "YAML",
-    "System",
     "Azure DevOps",
     "Azure storage explorer",
     "GIT",
