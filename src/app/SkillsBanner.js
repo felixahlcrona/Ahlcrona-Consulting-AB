@@ -79,7 +79,7 @@ const SkillsBanner = () => {
             return (
               <a href={`https://www.google.com/search?q=${encodeURIComponent(skill)}`} target="_blank" rel="noopener noreferrer">
                 <div
-                  key={index}
+                  key={skill.index}
                   className="skill"
                   style={{
                     animationDelay: `${index * 1.7}s`, //Delay skillbadges
