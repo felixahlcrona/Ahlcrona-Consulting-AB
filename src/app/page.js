@@ -6,6 +6,8 @@ import "bulma/css/bulma.min.css";
 export default function Home() {
   return (
     <div class="main">
+      <title>Ahlcrona Consulting AB</title>
+      <link rel="icon" href="/favicon.ico" />
       <div class="container">
         <div class="notification" id="transparent">
           <div class="columns">
