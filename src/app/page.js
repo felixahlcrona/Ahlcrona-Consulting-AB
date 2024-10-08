@@ -10,7 +10,7 @@ export default function Home() {
         <div class="notification" id="transparent">
           <div class="columns">
             <div class="column">
-              <Image src={`/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
+              <Image src={`/Ahlcrona-Consulting-AB/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
 
               <div class="animate__animated animate__fadeIn">
                 <p class="titleName">Felix Ahlcrona </p>
