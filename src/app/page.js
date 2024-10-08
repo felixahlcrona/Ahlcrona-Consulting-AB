@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SkillsBanner from "./SkillsBanner";
 import "animate.css";
 import "bulma/css/bulma.min.css";
 
@@ -65,6 +66,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <SkillsBanner />
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: "/Ahlcrona-Consulting-AB",
-  // assetPrefix: "/Ahlcrona-Consulting-AB/",
+  basePath: "/Ahlcrona-Consulting-AB",
+  assetPrefix: "/Ahlcrona-Consulting-AB/",
 };
 
 export default nextConfig;
