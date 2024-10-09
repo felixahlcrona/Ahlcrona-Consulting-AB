@@ -4,12 +4,14 @@
 :root {
   overscroll-behavior-y: contain;
   --softOrange-color: #ffb70f;
-  --skyBlue-color: #72a4d2;
+
+  /* --skyBlue-color: #72a4d2; */
+  /* #f7760c73 */
+  /* #f7430c73
+  #ffb70f */
   --lightGray-color: #f5f5f5;
 
-  color: var(--foreground);
-  background: var(--background);
-  background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
+  background-image: linear-gradient(to bottom, #f5f5f578, #f7760c73), url("/Ahlcrona-Consulting-AB/background.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -27,14 +29,14 @@
   font-style: normal;
 }
 .body {
-  overscroll-behavior-y: none;
+  /* overscroll-behavior-y: none;
   background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: cover; */
 }
 html {
-  background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
+  /* background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg"); */
 }
 a {
   text-decoration: none !important;
@@ -55,7 +57,10 @@ a {
   font-size: clamp(3rem, 6vw, 6em);
   line-height: 1;
   font-weight: 800;
-  text-shadow: 0rem 0.335rem 0rem rgba(0, 0, 0, 0.128);
+  text-shadow: 0rem 0.335rem 0rem rgb(0 0 0 / 16%);
+}
+.descText {
+  font-weight: 300;
 }
 #transparent {
   background-color: transparent;
@@ -65,17 +70,19 @@ a {
 #button {
   margin: auto;
   display: flex;
+  font-weight: 300;
+  border-color: #ffffff00;
   align-items: center;
   justify-content: space-between;
   width: 75%;
-  background-color: var(--softOrange-color);
+  background-color: #ffb70f08;
   color: var(--lightGray-color);
   background-repeat: repeat;
   background-position: 0% 0%;
   background-size: cover;
   vertical-align: middle;
-  border-radius: 2rem;
-  box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188);
+  /* border-radius: 2rem; */
+  /* box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188); */
   transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
@@ -86,17 +93,18 @@ a {
 }
 
 .buttonBlock {
-  gap: 1.5rem;
+  gap: 1.2rem;
   flex-direction: column;
   flex-wrap: nowrap;
   display: flex;
 }
 
 .profileImage {
-  border-radius: 30%;
+  border-radius: 20%;
+  width: 20%;
 }
 .buttonText {
-  font-size: 2rem;
+  font-size: clamp(1rem, 1vw, 1em);
 }
 .icon.is-medium {
   font-size: 2rem;

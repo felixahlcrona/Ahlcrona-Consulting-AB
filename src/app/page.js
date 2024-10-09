@@ -18,7 +18,7 @@ export default function Home() {
 
               <div class="animate__animated animate__fadeIn">
                 <p class="titleName">Felix Ahlcrona </p>
-                <p>Hello! I'm Felix, a senior freelance software engineer with experience in software architecture and technical leadership roles</p>
+                <p class="descText">Hello! I'm Felix, a senior freelance software engineer with experience in software architecture and technical leadership roles</p>
               </div>
             </div>
 

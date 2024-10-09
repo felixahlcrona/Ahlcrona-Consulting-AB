@@ -53,16 +53,15 @@
   background-color: #f69a37;
 }
 
-.animate5s {
+.experienceDiv {
   padding-top: 40px;
-  animation: fadein 4s;
+}
 
+.experienceTitle {
   text-align: center;
   color: var(--lightGray-color);
   letter-spacing: -0.1rem;
   width: 100%;
   font-size: clamp(2rem, 2vw, 2em);
-  line-height: 1;
-  font-weight: 800;
-  text-shadow: 0rem 0.335rem 0rem rgba(0, 0, 0, 0.128);
+  font-weight: 300;
 }

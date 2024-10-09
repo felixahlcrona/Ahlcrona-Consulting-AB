@@ -75,8 +75,8 @@ const SkillsBanner = () => {
 
   return (
     <div>
-      <div className="animate5s">
-        <p>Experience in</p>
+      <div className="experienceDiv">
+        <p className="experienceTitle">Experience in</p>
       </div>
       <div className="skill-container">
         <div>
