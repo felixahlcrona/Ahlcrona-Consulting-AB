@@ -8,6 +8,8 @@ export default function Home() {
     <div class="main">
       <title>Ahlcrona Consulting AB</title>
       <link rel="icon" href="/favicon.ico" />
+      <link rel="preload" href="/background.jpg" as="image" />
+
       <div class="container">
         <div class="notification" id="transparent">
           <div class="columns">
@@ -34,7 +36,7 @@ export default function Home() {
                 </div>
 
                 <div class="animate2s">
-                  <a href="https://drive.google.com/file/d/1SdwOkDT0DCWgHQEoQAvDNZX6KYPueiB8/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/106fRMiq71PDlZvhyrSGX16MvboRIYlAP/view?usp=sharing" target="_blank">
                     <button class="button is-large" id="button">
                       <span className="buttonText">Resumé</span>
                       <span class="icon is-medium" id="icon">
