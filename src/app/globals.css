@@ -61,6 +61,7 @@ a {
 }
 .descText {
   font-weight: 300;
+  color: var(--lightGray-color);
 }
 #transparent {
   background-color: transparent;
