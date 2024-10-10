@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
 
                 <div class="animate2s">
-                  <a href="https://drive.google.com/file/d/1K7cVvuzS1FExcF1MEvGxRpEW1wBzXzr8/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/17KOhQ7sA7U6gPIc1Q8gTfSCZR4ufK3ae/view?usp=sharing" target="_blank">
                     <button class="button is-large" id="button">
                       <span className="buttonText">Resumé</span>
                       <span class="icon is-medium" id="icon">
