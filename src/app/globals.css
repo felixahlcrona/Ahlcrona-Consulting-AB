@@ -4,14 +4,8 @@
 :root {
   overscroll-behavior-y: contain;
   --softOrange-color: #ffb70f;
-
-  /* --skyBlue-color: #72a4d2; */
-  /* #f7760c73 */
-  /* #f7430c73
-  #ffb70f */
   --lightGray-color: #f5f5f5;
-
-  background-image: linear-gradient(to bottom, #f5f5f578, #f7760c73), url("/background.jpg");
+  background-image: linear-gradient(180deg, #154d8b78, #14161a40), url(/background.jpg);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -28,16 +22,7 @@
   font-weight: 800;
   font-style: normal;
 }
-.body {
-  /* overscroll-behavior-y: none;
-  background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover; */
-}
-html {
-  /* background-image: linear-gradient(to bottom, #f5f5f578, #4f90ff73), url("/background.jpg"); */
-}
+
 a {
   text-decoration: none !important;
 }
