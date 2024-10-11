@@ -67,8 +67,6 @@ a {
   background-position: 0% 0%;
   background-size: cover;
   vertical-align: middle;
-  /* border-radius: 2rem; */
-  /* box-shadow: 0rem 0.375rem 0rem 0rem rgba(0, 0, 0, 0.188); */
   transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 

@@ -89,7 +89,7 @@ const SkillsBanner = () => {
                   key={skill.index}
                   className="skill"
                   style={{
-                    animationDelay: `${index * 1.7}s`, //Delay skillbadges
+                    animationDelay: `${index * 1.7}s`,
                     top: `${randomVerticalPos}px`,
                   }}
                 >

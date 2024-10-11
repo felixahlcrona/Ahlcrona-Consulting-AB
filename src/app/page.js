@@ -15,10 +15,9 @@ export default function Home() {
           <div class="columns">
             <div class="column">
               <Image src={`/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
-
               <div class="animate__animated animate__fadeIn">
                 <p class="titleName">Felix Ahlcrona </p>
-                <p class="descText">Hello! I'm Felix, a senior freelance software engineer with experience in software architecture and technical leadership roles</p>
+                <p class="descText">Hello! I'm Felix, software engineer with experience in architecture and technical leadership roles</p>
               </div>
             </div>
 
