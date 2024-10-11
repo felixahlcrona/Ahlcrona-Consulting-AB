@@ -1,20 +1,37 @@
 import Image from "next/image";
 import SkillsBanner from "./SkillsBanner";
+import Head from "next/head";
+
 import "animate.css";
 import "bulma/css/bulma.min.css";
 
 export default function Home() {
   return (
     <div class="main">
-      <title>Ahlcrona Consulting AB</title>
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="preload" href="/background.jpg" as="image" />
+      <Head>
+        <title>Ahlcrona Consulting AB</title>
+        <meta name="description" content="Consulting services in IT" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preload" href="/background.jpg" as="image" />
+        <link rel="preload" href="/styles/main.css" as="style" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Ahlcrona Consulting AB",
+              "url": "https://ahlcronaconsulting.se",
+              "logo": "https://ahlcronaconsulting.se/favicon.ico"
+            }
+          `}
+        </script>
+      </Head>
 
       <div class="container">
         <div class="notification" id="transparent">
           <div class="columns">
             <div class="column">
-              <Image src={`/felix.jpg`} class="profileImage" alt="profile" width="150" height="150" />
+              <Image src={`/felix.jpg`} loading="lazy" data-nimg="1" style="color:transparent" class="profileImage" alt="profile" width="150" height="150" />
               <div class="animate__animated animate__fadeIn">
                 <p class="titleName">Felix Ahlcrona </p>
                 <p class="descText">Hello! I'm Felix, software engineer with experience in architecture and technical leadership roles</p>
